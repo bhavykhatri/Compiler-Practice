@@ -1,0 +1,29 @@
+strict graph G {
+1 [label="statement"]
+1 -- 2
+2 [label="term"]
+2 -- 3
+3 [label="binary"]
+3 -- 4
+4 [label="binary"]
+5 [label="1"]
+4 -- 5
+2 -- 6
+6 [label="binary"]
+7 [label="1"]
+6 -- 7
+14 [label="."]
+1 -- 14
+1 -- 8
+8 [label="term"]
+8 -- 9
+9 [label="binary"]
+9 -- 10
+10 [label="binary"]
+11 [label="0"]
+10 -- 11
+8 -- 12
+12 [label="binary"]
+13 [label="1"]
+12 -- 13
+}
